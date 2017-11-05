@@ -1,52 +1,101 @@
 {
-  "groupeA":{
-  "title":"Groupe A",
-  "codeGroupe":"A",
-  "equipes":{
-    "equipe1":{
-      "id":1,
-      "national":"tunisie"
-      },
-    "equipe2":{
-      "id":1,
-      "national":"tunisie"
-      },
-      "equipe3":{
-        "id":1,
-        "national":"tunisie"
+    "groupeA": {
+        "title": "Groupe A",
+        "codeGroupe": "A",
+        "equipes": {
+            "equipe1": {
+                "id": 1,
+                "national": "tunisie"
+            },
+            "equipe2": {
+                "id": 1,
+                "national": "tunisie"
+            },
+            "equipe3": {
+                "id": 1,
+                "national": "tunisie"
+            },
+            "equipe4": {
+                "id": 1,
+                "national": "tunisie"
+            }
         },
-        "equipe4":{
-          "id":1,
-          "national":"tunisie"
-          }
-  },
-  "aganda":{
-    "match1":{
-      "date":"",
-      "stade":"",
-      "equipe1":"",
-      "equipe2":""
-    },
-    "match2":{
-      "date":"",
-      "stade":"",
-      "equipe1":"",
-      "equipe2":""
-      },
-      "match3": {
-        "date":"",
-        "stade":"",
-        "equipe1":"",
-        "equipe2":""
-        },
-        "match4": {
-          "date":"",
-          "stade":"",
-          "equipe1":"",
-          "equipe2":""
-          }
-  }
+        "aganda": {
+            "match1": {
+                "date": "",
+                "stade": "",
+                "equipe1": "",
+                "equipe2": ""
+            },
+            "match2": {
+                "date": "",
+                "stade": "",
+                "equipe1": "",
+                "equipe2": ""
+            },
+            "match3": {
+                "date": "",
+                "stade": "",
+                "equipe1": "",
+                "equipe2": ""
+            },
+            "match4": {
+                "date": "",
+                "stade": "",
+                "equipe1": "",
+                "equipe2": ""
+            }
+        }
 
-  }
+    },
+    "groupeB": {
+        "title": "Groupe B",
+        "codeGroupe": "B",
+        "equipes": {
+            "equipe1": {
+                "id": 1,
+                "national": "tunisie"
+            },
+            "equipe2": {
+                "id": 1,
+                "national": "tunisie"
+            },
+            "equipe3": {
+                "id": 1,
+                "national": "tunisie"
+            },
+            "equipe4": {
+                "id": 1,
+                "national": "tunisie"
+            }
+        },
+        "aganda": {
+            "match1": {
+                "date": "",
+                "stade": "",
+                "equipe1": "",
+                "equipe2": ""
+            },
+            "match2": {
+                "date": "",
+                "stade": "",
+                "equipe1": "",
+                "equipe2": ""
+            },
+            "match3": {
+                "date": "",
+                "stade": "",
+                "equipe1": "",
+                "equipe2": ""
+            },
+            "match4": {
+                "date": "",
+                "stade": "",
+                "equipe1": "",
+                "equipe2": ""
+            }
+        }
+
+    }
 
 }

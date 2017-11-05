@@ -3,6 +3,7 @@ import { NgModule } from '@angular/core';
 import { FormsModule } from '@angular/forms';
 import { HttpClientModule } from '@angular/common/http';
 import { AppRoutingModule } from './app-routing.module';
+import { HttpModule } from '@angular/http';
 
 
 import { AppBoostrapModule } from './app-boostrap/app-boostrap.module';
@@ -13,11 +14,12 @@ import { MyprofilComponent} from './myprofil/myprofil.component';
 import { RuleGameComponent} from './ruleGame/ruleGame.component';
 import { RankingComponent} from './userManagement/ranking/ranking.component';
 
+import { MyparisService } from './myparis/myparis.service';
 
 @NgModule({
   declarations: [AppComponent, HomeComponent, MyparisComponent, MyprofilComponent, RuleGameComponent, RankingComponent],
-  imports: [BrowserModule, AppBoostrapModule, FormsModule, AppRoutingModule, HttpClientModule],
-  providers: [],
+  imports: [BrowserModule, AppBoostrapModule, FormsModule, AppRoutingModule, HttpClientModule, HttpModule],
+  providers: [MyparisService],
   bootstrap: [AppComponent]
 })
 export class AppModule {}

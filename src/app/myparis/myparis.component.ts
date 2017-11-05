@@ -1,22 +1,27 @@
-import { Component,OnInit } from '@angular/core';
+import { Component, OnInit } from '@angular/core';
 import { HttpClient } from '@angular/common/http';
+
+import { MyparisService } from './myparis.service';
+
 
 @Component({
   selector: 'app-my-paris',
   templateUrl: './myparis.component.html',
   styleUrls: [  ]
 })
-export class MyparisComponent implements OnInit  {
-  results = '';
+export class MyparisComponent  {
 
-  constructor(private http: HttpClient)
-  {
-    
-  }
-  ngOnInit(): void {
-    this.http.get('../app/mesparis/equipe.json').subscribe(data => {
-      console.log(data);
-    });
+    configs;
+
+  constructor(private _MyparisService: MyparisService) {
+         this._MyparisService.getConfiguration().subscribe((res) => {
+                this.configs = res;
+                console.log('after reading');
+                console.log(this.configs);
+            },
+            (error) => console.log('error : ' + error),
+            () => console.log('Error in GetApplication in Login : ' + Error)
+        );
   }
 }
 
