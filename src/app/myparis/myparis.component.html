@@ -1,40 +1,37 @@
+<div>
+    <tabset>
+        <tab heading="Groupe {{game.groupe}}" *ngFor="let game of t;">
 
-    
-        <div>
-            <tabset>
-              <tab heading="Groupe A">
-                  
-                <table class="table table-striped">
-                    <thead>
-                      <tr>
-                        <th>Firstname</th>
-                        <th>Lastname</th>
-                        <th>Email</th>
-                      </tr>
-                    </thead>
-                    <tbody>
-                      <tr>
-                        <td>John</td>
-                        <td>Doe</td>
-                        <td>john@example.com</td>
-                      </tr>
-                      <tr>
-                        <td>Mary</td>
-                        <td>Moe</td>
-                        <td>mary@example.com</td>
-                      </tr>
-                      <tr>
-                        <td>July</td>
-                        <td>Dooley</td>
-                        <td>july@example.com</td>
-                      </tr>
-                    </tbody>
-                  </table>
-              </tab>
-              <tab heading="Groupe B">Static content 1</tab>
-              <tab heading="Groupe C">Static content 2</tab>
-              <tab heading="Groupe D">Static content 2</tab>
-              
-            </tabset>
-          </div>
-    
+            <table class="table table-striped">
+                <thead>
+                <tr>
+                    <th style="text-align: center;"></th>
+                    <th style="text-align: center;">G</th>
+                    <th style="text-align: center;">N</th>
+                    <th style="text-align: center;">P</th>
+                    <th style="text-align: center;">BP</th>
+                    <th style="text-align: center;">BC</th>
+                    <th style="text-align: center;">Diff</th>
+                    <th style="text-align: center;">Points</th>
+                    <th style="text-align: center;">Classement</th>
+                </tr>
+                </thead>
+                <tbody>
+                <tr *ngFor="let equipe of game.equipes; let i = index" >
+                    <td  style="text-align: center;">{{equipe.titre}}</td>
+                    <td style="text-align: center;">{{equipe.g}}</td>
+                    <td style="text-align: center;">{{equipe.n}}</td>
+                    <td style="text-align: center;">{{equipe.p}}</td>
+                    <td style="text-align: center;">{{equipe.BP}}</td>
+                    <td style="text-align: center;">{{equipe.BC}}</td>
+                    <td style="text-align: center;">{{equipe.BP - equipe.BC}}</td>
+                    <td style="text-align: center;">{{equipe.point}}</td>
+                    <td style="text-align: center;">{{i+1}}</td>
+                </tr>
+
+                </tbody>
+            </table>
+        </tab>
+
+    </tabset>
+</div>
