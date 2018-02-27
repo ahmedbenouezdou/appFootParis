@@ -1,101 +1,10 @@
 {
-    "groupeA": {
-        "title": "Groupe A",
-        "codeGroupe": "A",
-        "equipes": {
-            "equipe1": {
-                "id": 1,
-                "national": "tunisie"
-            },
-            "equipe2": {
-                "id": 1,
-                "national": "tunisie"
-            },
-            "equipe3": {
-                "id": 1,
-                "national": "tunisie"
-            },
-            "equipe4": {
-                "id": 1,
-                "national": "tunisie"
-            }
-        },
-        "aganda": {
-            "match1": {
-                "date": "",
-                "stade": "",
-                "equipe1": "",
-                "equipe2": ""
-            },
-            "match2": {
-                "date": "",
-                "stade": "",
-                "equipe1": "",
-                "equipe2": ""
-            },
-            "match3": {
-                "date": "",
-                "stade": "",
-                "equipe1": "",
-                "equipe2": ""
-            },
-            "match4": {
-                "date": "",
-                "stade": "",
-                "equipe1": "",
-                "equipe2": ""
-            }
-        }
-
-    },
-    "groupeB": {
-        "title": "Groupe B",
-        "codeGroupe": "B",
-        "equipes": {
-            "equipe1": {
-                "id": 1,
-                "national": "tunisie"
-            },
-            "equipe2": {
-                "id": 1,
-                "national": "tunisie"
-            },
-            "equipe3": {
-                "id": 1,
-                "national": "tunisie"
-            },
-            "equipe4": {
-                "id": 1,
-                "national": "tunisie"
-            }
-        },
-        "aganda": {
-            "match1": {
-                "date": "",
-                "stade": "",
-                "equipe1": "",
-                "equipe2": ""
-            },
-            "match2": {
-                "date": "",
-                "stade": "",
-                "equipe1": "",
-                "equipe2": ""
-            },
-            "match3": {
-                "date": "",
-                "stade": "",
-                "equipe1": "",
-                "equipe2": ""
-            },
-            "match4": {
-                "date": "",
-                "stade": "",
-                "equipe1": "",
-                "equipe2": ""
-            }
-        }
-
-    }
-
+  A: [{"equipe": "Russie"}, {"equipe": "Uruguay"}, {"equipe": "Egypte"}, {"equipe": "Arabie Saoudite"}],
+  B: [{"equipe": "Portugal"}, {"equipe": "Espagne"}, {"equipe": "Iran"}, {"equipe": "Maroc"}],
+  C: [{"equipe": "France"}, {"equipe": "Pérou"}, {"equipe": "Danemark"}, {"equipe": "Australie"}],
+  D: [{"equipe": "Argentine"}, {"equipe": "Croatie"}, {"equipe": "Islande"}, {"equipe": "Nigeria"}],
+  E: [{"equipe": "Brésil"}, {"equipe": "Suisse"}, {"equipe": "Costa Rica"}, {"equipe": "Serbie"}],
+  F: [{"equipe": "Allemagne"}, {"equipe": "Mexique"}, {"equipe": "Suède"}, {"equipe": "Corée du Sud"}],
+  G: [{"equipe": "Belgique"}, {"equipe": "Angleterre"}, {"equipe": "Tunisie"}, {"equipe": "Panama"}],
+  H: [{"equipe": "Pologne"}, {"equipe": "Colombie"}, {"equipe": "Sénégal"}, {"equipe": "Japon"}]
 }
