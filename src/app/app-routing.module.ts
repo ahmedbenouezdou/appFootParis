@@ -6,6 +6,8 @@ import { MyparisComponent} from './myparis/myparis.component';
 import { MyprofilComponent} from './myprofil/myprofil.component';
 import { RuleGameComponent} from './ruleGame/ruleGame.component';
 import { RankingComponent} from './userManagement/ranking/ranking.component';
+import { LoginComponent} from './login/loginUser/login.component';
+import { ForgotPasswordComponent} from './login/forgotPassword/forgotPassword.component';
 
 
 const routes: Routes = [
@@ -14,6 +16,8 @@ const routes: Routes = [
   { path: 'myparis',  component: MyparisComponent },
   { path: 'myprofil',  component: MyprofilComponent },
   { path: 'ruleGame',  component: RuleGameComponent },
+  { path: 'login',  component: LoginComponent },
+  { path: 'forgotPassword',  component: ForgotPasswordComponent },
   { path: 'ranking',  component: RankingComponent }
 
 ];

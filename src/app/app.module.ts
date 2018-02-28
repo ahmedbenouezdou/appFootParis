@@ -13,11 +13,12 @@ import { MyparisComponent } from './myparis/myparis.component';
 import { MyprofilComponent} from './myprofil/myprofil.component';
 import { RuleGameComponent} from './ruleGame/ruleGame.component';
 import { RankingComponent} from './userManagement/ranking/ranking.component';
-
+import { LoginComponent} from './login/loginUser/login.component';
+import { ForgotPasswordComponent} from './login/forgotPassword/forgotPassword.component';
 import { MyparisService } from './myparis/myparis.service';
 
 @NgModule({
-  declarations: [AppComponent, HomeComponent, MyparisComponent, MyprofilComponent, RuleGameComponent, RankingComponent],
+  declarations: [AppComponent, HomeComponent, MyparisComponent, MyprofilComponent, RuleGameComponent, RankingComponent,LoginComponent,ForgotPasswordComponent],
   imports: [BrowserModule, AppBoostrapModule, FormsModule, AppRoutingModule, HttpClientModule, HttpModule],
   providers: [MyparisService],
   bootstrap: [AppComponent]
