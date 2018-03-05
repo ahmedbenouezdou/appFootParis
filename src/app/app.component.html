@@ -18,7 +18,14 @@
             <ul class="nav navbar-nav">
                 <li routerLinkActive="active"><a routerLink="/home">Home</a></li>
                 <li routerLinkActive="active"><a routerLink="/myparis">Mes Paris</a></li>
-                <li routerLinkActive="active"><a routerLink="/ruleGame">Réglement</a></li>
+                <li dropdown>
+                    <a dropdownToggle class="dropdown-toggle" role="button">Mes Paris<span class="caret"></span></a>
+                    <ul *dropdownMenu class="dropdown-menu">
+                        <li routerLinkActive="active"><a routerLink="/myprofil">Gestion utilisateur</a></li>
+                        <li routerLinkActive="active"><a routerLink="/ranking">{{t}}</a></li>
+                    </ul>
+                </li>
+
                 <li dropdown>
                     <a dropdownToggle class="dropdown-toggle" role="button">Gestion utilisateur <span class="caret"></span></a>
                     <ul *dropdownMenu class="dropdown-menu">
