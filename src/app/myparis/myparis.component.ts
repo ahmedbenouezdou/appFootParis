@@ -12,7 +12,7 @@ import { MyparisService } from './myparis.service';
 export class MyparisComponent {
 
     configs;
-    t = {};
+    groupes = {};
 
 
     constructor(private _MyparisService:MyparisService) {
@@ -24,7 +24,7 @@ export class MyparisComponent {
             (error) => console.log('error : ' + error),
             () => console.log('Error in GetApplication in Login : ' + Error)
         );
-        this.t = [
+        this.groupes = [
             {
                 groupe: 'A',
                 equipes: [{titre: "Russie", g: 0, n: 0, p: 0, BP: 0, BC: 0, point: 0}, 
